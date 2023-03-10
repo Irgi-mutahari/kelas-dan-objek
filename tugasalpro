@@ -1,0 +1,23 @@
+public class jaket {
+		String warna = "pink";
+		String merk = "balenciaga";
+		
+		void kering() {
+			System.out.println("jaket " + merk + " warna " + warna + " siap dipakai");
+		}
+		
+		void basah() {
+			System.out.println("jaket " + merk + " warna " + warna + " masih basah");
+		}
+		
+		public static void main(String[] args) {
+			jaket jaketSaya = new jaket();
+			
+			jaketSaya.kering();
+			jaketSaya.basah();
+			
+			
+		}
+
+
+}
